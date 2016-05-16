@@ -12,5 +12,7 @@ public @Data class Member {
 	@GeneratedValue
 	int id;
 	String email;
-	String password;	
+	String password;
+	String regDate;
+	
 }
